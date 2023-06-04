@@ -1,0 +1,90 @@
+@media (max-width: 767px) {
+    .container {
+        max-width: 730px;
+    }
+    .promo {
+        min-height: 610px;
+        padding: 20px 0 40px 0;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 35px;
+            line-height: 36px;
+        }
+        &__subheader {
+            font-size: 19px;
+            line-height: 28px;
+        }
+    }
+    .benefits {
+        padding: 50px 0 60px 0;
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 560px;
+    }
+    .header {
+        &__logo {
+            max-width: 180px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        span {
+            font-size: 18px;
+        }
+    }
+    .promo {
+        min-height: 550px;
+        padding: 20px 0 40px 0;
+        &__wrapper {
+            margin-top: 60px;
+            align-items: center;
+            button.button_main {
+                margin-top: 49px;
+                width: 250px;
+                height: 42px;
+                font-size: 15px
+            }
+        }
+        &__header {
+            font-size: 30px;
+            line-height: 26px;
+        }
+        &__subheader {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &__icons {
+            margin-top: 55px;
+        }
+    }
+    .benefits {
+        padding: 40px 0 50px 0;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__header {
+            font-size: 26px;
+        }
+        &__wrapper {
+            margin-top: 10px;
+        }
+        &__item {
+            margin-top: 50px;
+            max-width: 300px;
+        }
+        &__subheader {
+            margin-top: 20px;
+        }
+        &__descrip {
+            margin-top: 15px;
+            br {
+                display: none;
+            }
+        }
+    }
+}
